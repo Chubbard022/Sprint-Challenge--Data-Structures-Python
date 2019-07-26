@@ -12,7 +12,7 @@ class RingBuffer:
       #if it is, we are adding item to the head of the array
       self.current = 0
     else:
-      # else, adding it to the end
+      # else, adding it to the end and incrementing current
       self.current += 1
 
   def get(self):
